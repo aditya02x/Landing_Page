@@ -610,10 +610,7 @@ export default function LandingPage() {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80, alignItems: "center" }}>
             <div>
               <div className="section-fade" style={{ opacity: 0 }}>
-                <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: "0.1em", color: "#6366f1", textTransform: "uppercase", marginBottom: 16 }}>How it works</div>
-                <h2 style={{ fontFamily: "'DM Serif Display', serif", fontSize: "clamp(28px,3.5vw,44px)", fontWeight: 400, color: "#0f0f0f", letterSpacing: "-0.03em", lineHeight: 1.15, marginBottom: 48 }}>
-                  Three steps to a calmer, faster workflow.
-                </h2>
+                <div style={{ fontSize: 12, fontWeight: 
               </div>
               <div style={{ display: "flex", flexDirection: "column" }}>
                 {STEPS.map((s, i) => <StepItem key={s.num} {...s} last={i === STEPS.length - 1} />)}
