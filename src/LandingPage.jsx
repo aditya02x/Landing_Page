@@ -632,7 +632,11 @@ export default function LandingPage() {
                     </div>
                   ))}
                 </div>
-                <div style={{ padding: "24px 
+                <div style={{ padding: "24px 32px" }}>
+                  <div style={{ fontSize: 13, fontWeight: 700, color: "#0f0f0f", marginBottom: 4 }}>Workflow active · 2 min ago</div>
+                  <div style={{ fontSize: 12, color: "#9ca3af" }}>Processed 142 leads · Flagged 18 for immediate follow-up</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
