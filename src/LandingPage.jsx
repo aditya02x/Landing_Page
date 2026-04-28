@@ -673,11 +673,7 @@ export default function LandingPage() {
             <div style={{ position: "absolute", top: -60, right: -60, width: 200, height: 200, borderRadius: "50%", background: "rgba(255,255,255,0.05)" }} />
             <div style={{ position: "absolute", bottom: -40, left: -40, width: 160, height: 160, borderRadius: "50%", background: "rgba(255,255,255,0.05)" }} />
             <div style={{ position: "relative" }}>
-              <h2 style={{ fontFamily: "'DM Serif Display', serif", fontSize: "clamp(28px,4vw,48px)", fontWeight: 400, color: "#fff", letterSpacing: "-0.03em", lineHeight: 1.15, marginBottom: 20 }}>
-                Ready to move faster?
-              </h2>
-              <p style={{ fontSize: 17, color: "rgba(255,255,255,0.75)", marginBottom: 40, lineHeight: 1.7, maxWidth: 460, margin: "0 auto 40px" }}>
-                Join 4,800+ teams that have eliminated their operational bottlenecks. No credit card required.
+              <h2 style={{ fontFamily: "'DM Serif Displayrational bottlenecks. No credit card required.
               </p>
               <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
                 <a
