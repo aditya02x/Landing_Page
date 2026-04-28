@@ -737,14 +737,7 @@ export default function LandingPage() {
               </div>
             </div>
             {[
-              { title: "Product", links: ["Features","Integrations","Changelog","Roadmap"] },
-              { title: "Company", links: ["About","Blog","Careers","Press"] },
-              { title: "Legal", links: ["Privacy","Terms","Security","Cookies"] },
-            ].map(col => (
-              <div key={col.title}>
-                <div style={{ fontSize: 12, fontWeight: 700, color: "#fff", letterSpacing: "0.05em", textTransform: "uppercase", marginBottom: 20 }}>{col.title}</div>
-                {col.links.map(l => (
-                  <a key={l} href="#" style={{ display: "block", fontSize: 14, color: "#6b7280", marginBottom: 12, textDecoration: "none", transition: "color .15s" }}
+              { title: "Produstyle={{ display: "block", fontSize: 14, color: "#6b7280", marginBottom: 12, textDecoration: "none", transition: "color .15s" }}
                     onMouseEnter={e => (e.target.style.color = "#fff")} onMouseLeave={e => (e.target.style.color = "#6b7280")}
                   >{l}</a>
                 ))}
