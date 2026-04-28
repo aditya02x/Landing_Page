@@ -701,12 +701,6 @@ export default function LandingPage() {
                     border: "1px solid rgba(255,255,255,0.25)",
                     textDecoration: "none", backdropFilter: "blur(4px)", transition: "all .2s",
                   }}
-                  onMouseEnter={e => { e.currentTarget.style.background = "rgba(255,255,255,0.25)"; }}
-                  onMouseLeave={e => { e.currentTarget.style.background = "rgba(255,255,255,0.15)"; }}
-                >
-                  Talk to sales
-                </a>
-              </div>
             </div>
           </div>
         </div>
