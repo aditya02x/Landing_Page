@@ -719,13 +719,7 @@ export default function LandingPage() {
             <div>
               <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 16 }}>
                 <div style={{ width: 28, height: 28, borderRadius: 8, background: "linear-gradient(135deg,#6366f1,#8b5cf6)", display: "flex", alignItems: "center", justifyContent: "center" }}>
-                  <svg viewBox="0 0 16 16" fill="white" style={{ width: 14, height: 14 }}>
-                    <path d="M8 1L1 5v6l7 4 7-4V5L8 1zm0 2.18L13 6.06v3.88L8 12.82 3 9.94V6.06L8 3.18z" />
-                  </svg>
-                </div>
-                <span style={{ fontWeight: 700, fontSize: 17, color: "#fff", letterSpacing: "-0.02em" }}>Orbit</span>
-              </div>
-              <p style={{ fontSize: 14, color: "#6b7280", lineHeight: 1.7, maxWidth: 280, marginBottom: 24 }}>
+                  <svg viewBox="0 0 16 16" fill="wight: 1.7, maxWidth: 280, marginBottom: 24 }}>
                 The operating system for modern teams. Connect, automate, and grow — without the noise.
               </p>
               <div style={{ display: "flex", gap: 12 }}>
